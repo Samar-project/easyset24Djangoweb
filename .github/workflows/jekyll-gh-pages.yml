@@ -48,11 +48,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with: 
+          ref: gh-pages
         id: deployment
 
       - name: Deploy to GitHub Pages
         # uses: actions/deploy-pages@v4
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.JADUU }}
           publish_dir: django/templates
