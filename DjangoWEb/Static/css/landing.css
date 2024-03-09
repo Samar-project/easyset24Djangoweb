@@ -1,0 +1,1983 @@
+.landing-page, .landing-page * { box-sizing: border-box; }.landing-page {background: var(--neutral-100, #f9f9f9);height: 4579px;
+    position: relative;
+  overflow: hidden;}
+.special-offers {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; left: 109px;top: 669px;
+  }
+.special-offers2 {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-3-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-3-font-size, 32px);
+line-height: var(--typography-desktop-h-3-line-height, 140%);
+font-weight: var(--typography-desktop-h-3-font-weight, 700);
+    position: relative;
+  width: 290px; height: 36px;}
+
+  .chat-online-with-expertes-small-size,
+  .chat-online-with-expertes-small-size * {
+    box-sizing: border-box;
+  }
+  .chat-online-with-expertes-small-size {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .chat-online-experts-pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .chat-online-experts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+ 
+  ._02,._03{
+    margin: 0 0 0 -8px;
+    background: linear-gradient(to left, #f9f9f9, #f9f9f9);
+    border-radius: 0px;
+    border-style: solid;
+    border-color: var(--neutral-500, #565656);
+    border-width: 2px;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .button {
+    background: var(--neutral-100, #f9f9f9);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: var(--neutral-300, #d9d9d9);
+    border-width: 1px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .if-you-have-any-question-we-are-here {
+    color: var(--primary-500, #07689f);
+    text-align: center;
+    font-family: var(
+      --typographydesktop-body-xs-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-body-xs-font-size, 12px);
+    line-height: var(--typographydesktop-body-xs-line-height, 150%);
+    font-weight: var(--typographydesktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --primary-400: #2f83b2;
+  --primary-500: #07689f;
+  --primary-600: #043e5f;
+  --neutral-white: #ffffff;
+  --neutral-100: #f9f9f9;
+  --neutral-200: #efefef;
+  --neutral-300: #d9d9d9;
+  --neutral-400: #a6a6a6;
+  --neutral-500: #565656;
+  --neutral-black: #000000;
+  --state-colour-error-light: #e5062e;
+  --state-colour-error-dark: #a80102;
+  --state-colour-alert: #ffcc00;
+  --state-colour-accent: #ff6c01;
+  --state-colour-success: #4c9839;
+  --state-colour-success-light: #e8f5e4;
+
+  /* Fonts */
+  --typographydesktop-display-1-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-display-1-font-size: 64px;
+  --typographydesktop-display-1-line-height: 140%;
+  --typographydesktop-display-1-font-weight: 700;
+  --typographydesktop-display-1-font-style: normal;
+  --typographydesktop-display-2-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-display-2-font-size: 54px;
+  --typographydesktop-display-2-line-height: 140%;
+  --typographydesktop-display-2-font-weight: 700;
+  --typographydesktop-display-2-font-style: normal;
+  --typographydesktop-h1-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-h1-font-size: 44px;
+  --typographydesktop-h1-line-height: 140%;
+  --typographydesktop-h1-font-weight: 700;
+  --typographydesktop-h1-font-style: normal;
+  --typographydesktop-h2-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-h2-font-size: 40px;
+  --typographydesktop-h2-line-height: 140%;
+  --typographydesktop-h2-font-weight: 700;
+  --typographydesktop-h2-font-style: normal;
+  --typographydesktop-h3-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-h3-font-size: 32px;
+  --typographydesktop-h3-line-height: 140%;
+  --typographydesktop-h3-font-weight: 700;
+  --typographydesktop-h3-font-style: normal;
+  --typographydesktop-h4-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-h4-font-size: 24px;
+  --typographydesktop-h4-line-height: 140%;
+  --typographydesktop-h4-font-weight: 700;
+  --typographydesktop-h4-font-style: normal;
+  --typographydesktop-h5-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-h5-font-size: 20px;
+  --typographydesktop-h5-line-height: 140%;
+  --typographydesktop-h5-font-weight: 700;
+  --typographydesktop-h5-font-style: normal;
+  --typographydesktop-h6-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-h6-font-size: 16px;
+  --typographydesktop-h6-line-height: 140%;
+  --typographydesktop-h6-font-weight: 700;
+  --typographydesktop-h6-font-style: normal;
+  --typographydesktop-subtitle-l-font-family: Poppins-SemiBold, sans-serif;
+  --typographydesktop-subtitle-l-font-size: 16px;
+  --typographydesktop-subtitle-l-line-height: 150%;
+  --typographydesktop-subtitle-l-font-weight: 600;
+  --typographydesktop-subtitle-l-font-style: normal;
+  --typographydesktop-subtitle-m-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-subtitle-m-font-size: 14px;
+  --typographydesktop-subtitle-m-line-height: 150%;
+  --typographydesktop-subtitle-m-font-weight: 400;
+  --typographydesktop-subtitle-m-font-style: normal;
+  --typographydesktop-subtitle-s-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-subtitle-s-font-size: 12px;
+  --typographydesktop-subtitle-s-line-height: 140%;
+  --typographydesktop-subtitle-s-font-weight: 400;
+  --typographydesktop-subtitle-s-font-style: normal;
+  --typographydesktop-subtitle-xs-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-subtitle-xs-font-size: 10px;
+  --typographydesktop-subtitle-xs-line-height: 140%;
+  --typographydesktop-subtitle-xs-font-weight: 400;
+  --typographydesktop-subtitle-xs-font-style: normal;
+  --typographydesktop-body-xl-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-body-xl-font-size: 20px;
+  --typographydesktop-body-xl-line-height: 140%;
+  --typographydesktop-body-xl-font-weight: 400;
+  --typographydesktop-body-xl-font-style: normal;
+  --typographydesktop-body-l-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-body-l-font-size: 18px;
+  --typographydesktop-body-l-line-height: 140%;
+  --typographydesktop-body-l-font-weight: 400;
+  --typographydesktop-body-l-font-style: normal;
+  --typographydesktop-body-m-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-body-m-font-size: 16px;
+  --typographydesktop-body-m-line-height: 150%;
+  --typographydesktop-body-m-font-weight: 400;
+  --typographydesktop-body-m-font-style: normal;
+  --typographydesktop-body-s-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-body-s-font-size: 14px;
+  --typographydesktop-body-s-line-height: 150%;
+  --typographydesktop-body-s-font-weight: 400;
+  --typographydesktop-body-s-font-style: normal;
+  --typographydesktop-body-xs-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-body-xs-font-size: 12px;
+  --typographydesktop-body-xs-line-height: 150%;
+  --typographydesktop-body-xs-font-weight: 400;
+  --typographydesktop-body-xs-font-style: normal;
+  --typographydesktop-body-xxs-font-family: Poppins-Light, sans-serif;
+  --typographydesktop-body-xxs-font-size: 10px;
+  --typographydesktop-body-xxs-line-height: 140%;
+  --typographydesktop-body-xxs-font-weight: 300;
+  --typographydesktop-body-xxs-font-style: normal;
+  --typographydesktop-caption-l-font-family: Poppins-ExtraBold, sans-serif;
+  --typographydesktop-caption-l-font-size: 14px;
+  --typographydesktop-caption-l-line-height: 140%;
+  --typographydesktop-caption-l-font-weight: 800;
+  --typographydesktop-caption-l-font-style: normal;
+  --typographydesktop-caption-m-font-family: Poppins-Regular, sans-serif;
+  --typographydesktop-caption-m-font-size: 14px;
+  --typographydesktop-caption-m-line-height: 140%;
+  --typographydesktop-caption-m-font-weight: 400;
+  --typographydesktop-caption-m-font-style: normal;
+  --typographydesktop-caption-s-font-family: Poppins-Medium, sans-serif;
+  --typographydesktop-caption-s-font-size: 12px;
+  --typographydesktop-caption-s-line-height: 140%;
+  --typographydesktop-caption-s-font-weight: 500;
+  --typographydesktop-caption-s-font-style: normal;
+  --typographydesktop-lable-xs-font-family: Poppins-SemiBold, sans-serif;
+  --typographydesktop-lable-xs-font-size: 10px;
+  --typographydesktop-lable-xs-line-height: 140%;
+  --typographydesktop-lable-xs-font-weight: 600;
+  --typographydesktop-lable-xs-font-style: normal;
+  --typographydesktop-label-s-font-family: Poppins-SemiBold, sans-serif;
+  --typographydesktop-label-s-font-size: 12px;
+  --typographydesktop-label-s-line-height: 140%;
+  --typographydesktop-label-s-font-weight: 600;
+  --typographydesktop-label-s-font-style: normal;
+  --typographydesktop-lable-m-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-lable-m-font-size: 14px;
+  --typographydesktop-lable-m-line-height: 140%;
+  --typographydesktop-lable-m-font-weight: 700;
+  --typographydesktop-lable-m-font-style: normal;
+  --typographydesktop-button-xxl-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-button-xxl-font-size: 16px;
+  --typographydesktop-button-xxl-line-height: 140%;
+  --typographydesktop-button-xxl-font-weight: 700;
+  --typographydesktop-button-xxl-font-style: normal;
+  --typographydesktop-button-xl-font-family: Poppins-Medium, sans-serif;
+  --typographydesktop-button-xl-font-size: 16px;
+  --typographydesktop-button-xl-line-height: 140%;
+  --typographydesktop-button-xl-font-weight: 500;
+  --typographydesktop-button-xl-font-style: normal;
+  --typographydesktop-button-l-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-button-l-font-size: 14px;
+  --typographydesktop-button-l-line-height: 140%;
+  --typographydesktop-button-l-font-weight: 700;
+  --typographydesktop-button-l-font-style: normal;
+  --typographydesktop-button-m-font-family: Poppins-Medium, sans-serif;
+  --typographydesktop-button-m-font-size: 14px;
+  --typographydesktop-button-m-line-height: 140%;
+  --typographydesktop-button-m-font-weight: 500;
+  --typographydesktop-button-m-font-style: normal;
+  --typographydesktop-button-s-font-family: Poppins-Bold, sans-serif;
+  --typographydesktop-button-s-font-size: 10px;
+  --typographydesktop-button-s-line-height: 140%;
+  --typographydesktop-button-s-font-weight: 700;
+  --typographydesktop-button-s-font-style: normal;
+  --typographydesktop-button-xs-font-family: Poppins-Medium, sans-serif;
+  --typographydesktop-button-xs-font-size: 10px;
+  --typographydesktop-button-xs-line-height: 140%;
+  --typographydesktop-button-xs-font-weight: 500;
+  --typographydesktop-button-xs-font-style: normal;
+
+  /* Effects */
+}
+a{
+  text-decoration:none ;
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.radio-button2 {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  }
+.radio-button-normal {border-radius: 100px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 1px;
+    position: absolute; right: 0%; left: 0%; width: 100%;bottom: 0%; top: 0%; height: 100%;
+  overflow: hidden;}
+.radio-button-normal2 {border-radius: 100px;
+    position: absolute; right: 16.67%; left: 16.67%; width: 66.67%;bottom: 16.67%; top: 16.67%; height: 66.67%;
+  overflow: hidden;}
+.all {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-m-font-size, 16px);
+line-height: var(--typography-desktop-body-m-line-height, 150%);
+font-weight: var(--typography-desktop-body-m-font-weight, 400);
+    position: relative;
+  }
+.hotels {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-m-font-size, 16px);
+line-height: var(--typography-desktop-body-m-line-height, 150%);
+font-weight: var(--typography-desktop-body-m-font-weight, 400);
+    position: relative;
+  }
+.flights {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-m-font-size, 16px);
+line-height: var(--typography-desktop-body-m-line-height, 150%);
+font-weight: var(--typography-desktop-body-m-font-weight, 400);
+    position: relative;
+  }
+.multi {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-m-font-size, 16px);
+line-height: var(--typography-desktop-body-m-line-height, 150%);
+font-weight: var(--typography-desktop-body-m-font-weight, 400);
+    position: relative;
+  }
+.offers {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; left: 108px;top: 2710px;
+  }
+.compare-the-highest-reviewed-past-offers {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-3-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-3-font-size, 32px);
+line-height: var(--typography-desktop-h-3-line-height, 140%);
+font-weight: var(--typography-desktop-h-3-font-weight, 700);
+    position: relative;
+  width: 711px; height: 33px;}
+.browse-by-type {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-subtitle-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-subtitle-m-font-size, 14px);
+line-height: var(--typography-desktop-subtitle-m-line-height, 150%);
+font-weight: var(--typography-desktop-subtitle-m-font-weight, 400);
+    position: relative;
+  width: 117px; height: 18px;}
+.hot-stays-title-and-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; left: 108px;top: 1429px;
+  }
+.explore-stays-in-trending-destinations {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-3-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-3-font-size, 32px);
+line-height: var(--typography-desktop-h-3-line-height, 140%);
+font-weight: var(--typography-desktop-h-3-font-weight, 700);
+    position: relative;
+  width: 777px; height: 36px;}
+.find-hot-stays {color: #000000;text-align: left;font-family: var(--typography-desktop-subtitle-l-font-family, 'Poppins-SemiBold', sans-serif);
+font-size: var(--typography-desktop-subtitle-l-font-size, 16px);
+line-height: var(--typography-desktop-subtitle-l-line-height, 150%);
+font-weight: var(--typography-desktop-subtitle-l-font-weight, 600);
+    position: relative;
+  }
+.landing-card-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 1224px;
+    position: absolute; left: calc(50% - 612px);top: calc(50% - -511.5px);
+  }
+.browse-by-type-cards {background: #ffffff;border-radius: 8px;
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 1px;
+padding: 8px 8px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+  flex: 1;
+    position: relative;
+  }
+.flight-photo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-end;
+  align-self: stretch;flex-shrink: 0;
+    position: relative;
+  }
+.flight-photo2 {border-radius: 4px 4px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 106px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  align-self: stretch;flex-shrink: 0;height: 203px;min-width: 200px;
+    position: relative;
+  }
+.heart {padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.heart2 {background: var(--neutral-black, #000000);border-radius: 50px;opacity: 0.699999988079071;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 25px; height: 25px;
+    position: relative;
+  }
+.icons-base-like {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.mode-setting {background: linear-gradient(180deg, rgba(12, 12, 12, 0.00) 0%,rgba(12, 12, 12, 1.00) 100%);opacity: 0.699999988079071;padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  align-self: stretch;flex-shrink: 0;height: 40px;
+    position: relative;
+  backdrop-filter: blur(45px);}
+._123 {color: var(--neutral-100, #f9f9f9);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  }
+.box-rate {border-radius: 4px;
+border-style: solid; 
+border-color: var(--neutral-100, #f9f9f9);
+border-width: 1px;
+padding: 11px 9px 11px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: hidden;backdrop-filter: blur(2px);}
+._8-2 {color: var(--neutral-100, #f9f9f9);text-align: left;font-family: var(--typography-desktop-button-s-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-button-s-font-size, 10px);
+line-height: var(--typography-desktop-button-s-line-height, 140%);
+font-weight: var(--typography-desktop-button-s-font-weight, 700);
+    position: relative;
+  }
+.flight {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-5-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-5-font-size, 20px);
+line-height: var(--typography-desktop-h-5-line-height, 140%);
+font-weight: var(--typography-desktop-h-5-font-weight, 700);
+    position: relative;
+  width: 216px; height: 20px;display: flex;
+align-items: center;justify-content: flex-start}
+.icons-base-like2 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like3 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like4 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.landing-card-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 1224px;
+    position: absolute; left: calc(50% - 612px);top: calc(50% - -792.5px);
+  }
+.browse-by-type-cards2 {background: #ffffff;border-radius: 8px;
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 1px;
+padding: 8px 8px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+  align-self: stretch;flex: 1;
+    position: relative;
+  }
+.icons-base-like5 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like6 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like7 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like8 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.footer-final {border-radius: 8px 8px 0px 0px;width: 1440px; height: 452px;
+    position: absolute; left: calc(50% - 720px);top: 4128px;
+  }
+.frame-footer {background: var(--neutral-300, #d9d9d9);width: 1440px; height: 64px;
+    position: absolute; left: 0px;top: 388px;
+  overflow: hidden;}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  width: 1224px;
+    position: absolute; left: 108px;top: 19px;
+  }
+.frame-427321048 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.frame-427320117 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-character-copyright {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.copyright-easy-set-24 {color: var(--neutral-500, #565656);text-align: left;font-family: var(--typography-desktop-caption-s-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-caption-s-font-size, 12px);
+line-height: var(--typography-desktop-caption-s-line-height, 140%);
+font-weight: var(--typography-desktop-caption-s-font-weight, 500);
+    position: relative;
+  }
+.frame-427321047 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.frame-427320112 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-office-email-down {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.easyset-24-gmail-com {color: var(--neutral-500, #565656);text-align: left;font-family: var(--typography-desktop-caption-s-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-caption-s-font-size, 12px);
+line-height: var(--typography-desktop-caption-s-line-height, 140%);
+font-weight: var(--typography-desktop-caption-s-font-weight, 500);
+    position: relative;
+  }
+.easy-set-24-seamless-journeys-unrivalled-travel-wisdom {color: var(--neutral-500, #565656);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  }
+.frame-427321038 {flex-shrink: 0;width: 175px; height: 20px;
+    position: relative;
+  }
+.icons-travels-local-two {width: 20px; height: 20px;
+    position: absolute; left: 0px;top: 0px;
+  overflow: visible;}
+._123-oxford-street-london {color: var(--neutral-500, #565656);text-align: left;font-family: var(--typography-desktop-caption-s-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-caption-s-font-size, 12px);
+line-height: var(--typography-desktop-caption-s-line-height, 140%);
+font-weight: var(--typography-desktop-caption-s-font-weight, 500);
+    position: absolute; left: 27.5px;top: 0px;
+  width: 148px; height: 20px;}
+.frame-427321046 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.frame-427320113 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-communicate-phone-call {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.phone {flex-shrink: 0;width: 103px; height: 17px;
+    position: static;
+  }
+._44-20-7123-4567 {color: var(--neutral-500, #565656);text-align: left;font-family: var(--typography-desktop-caption-s-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-caption-s-font-size, 12px);
+line-height: var(--typography-desktop-caption-s-line-height, 140%);
+font-weight: var(--typography-desktop-caption-s-font-weight, 500);
+    position: absolute; left: 28px;top: 3px;
+  }
+.footer2 {background: #f8f8f8;width: 1440px; height: 388px;
+    position: absolute; left: 0px;top: 0px;
+  overflow: hidden;}
+.base {
+    position: absolute; right: 76.39%; left: 19.58%; width: 4.03%;bottom: 14.43%; top: 75.26%; height: 10.31%;
+  }
+.frame-427321043 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute; left: 927px;top: 263px;
+  }
+.input-42 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+  flex-shrink: 0;width: 312px;
+    position: relative;
+  }
+.frame-427320845 {padding: 4px 8px 4px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.title {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-s-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-s-font-size, 14px);
+line-height: var(--typography-desktop-body-s-line-height, 150%);
+font-weight: var(--typography-desktop-body-s-font-weight, 400);
+    position: relative;
+  }
+.frame-427320843 {background: var(--neutral-white, #ffffff);border-radius: 4px 0px 0px 4px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 0.5px;
+padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+  align-self: stretch;flex-shrink: 0;height: 48px;
+    position: relative;
+  }
+.frame-427320844 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-office-mail {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.enter-yout-email {color: var(--neutral-400, #a6a6a6);text-align: left;font-family: var(--typography-desktop-body-s-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-s-font-size, 14px);
+line-height: var(--typography-desktop-body-s-line-height, 150%);
+font-weight: var(--typography-desktop-body-s-font-weight, 400);
+    position: relative;
+  }
+.frame-427320990 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 94px;
+    position: relative;
+  }
+.button {background: var(--primary-500, #07689f);border-radius: 0px 4px 4px 0px;padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 94px; height: 48px;
+    position: relative;
+  overflow: hidden;}
+.frame-26086871 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.text {color: var(--neutral-white, #ffffff);text-align: right;font-family: var(--typography-desktop-button-m-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-button-m-font-size, 14px);
+line-height: var(--typography-desktop-button-m-line-height, 140%);
+font-weight: var(--typography-desktop-button-m-font-weight, 500);
+    position: relative;
+  }
+.frame-427321028 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+  width: 405px;
+    position: absolute; left: calc(50% - 611px);top: calc(50% - -98px);
+  }
+.visa-card {border-radius: 4px;padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 48px;
+    position: relative;
+  overflow: visible;}
+.amex {border-radius: 4px;flex: 1;height: 48px;
+    position: relative;
+  overflow: visible;}
+.master-card {background: var(--neutral-100, #f9f9f9);border-radius: 4px;
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 48px;
+    position: relative;
+  }
+.international-bank-masterrcard {flex-shrink: 0;width: 47px; height: 31px;
+    position: relative;
+  overflow: visible;}
+.paypal {background: var(--neutral-100, #f9f9f9);border-radius: 4px;
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 48px;
+    position: relative;
+  }
+.international {align-self: stretch;flex-shrink: 0;height: 14px;
+    position: relative;
+  overflow: visible;}
+.frame-427321204 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  width: 1223px;
+    position: absolute; left: 109px;top: 48px;
+  }
+.frame-427320988 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 144px; height: 174px;
+    position: relative;
+  }
+.customer-service {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  width: 108px;}
+.our-story {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 108px;}
+.work-with-us {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 108px; height: 18px;}
+.press-media {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 126px; height: 18px;}
+.privacy-security {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 144px; height: 18px;}
+.frame-427320984 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+  flex-shrink: 0;width: 159px;
+    position: relative;
+  }
+.we-offer {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  }
+.trip-sponsorship {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 148px;}
+.last-minutes-flights {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 159px;}
+.best-deals {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 148px;}
+.ai-driven-search {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 148px;}
+.frame-427320985 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 123px;
+    position: relative;
+  }
+.headquarters {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  }
+.england {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 66px;}
+.france {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 66px;}
+.canada {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 66px;}
+.iceland {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 66px;}
+.frame-427320986 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 161px; height: 174px;
+    position: relative;
+  }
+.travel-blogs {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  }
+.bali-travel-guide {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.sri-travel-guide {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.peru-travel-guide {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.swiss-travel-guide {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 161px;}
+.frame-427320987 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;height: 174px;
+    position: relative;
+  }
+.activities {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  }
+.tour-leading {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.cruising-sailing {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.camping {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.kayaking {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 140px;}
+.frame-427321199 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 135px; height: 132px;
+    position: relative;
+  }
+.service {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  width: 92px;}
+.report-error {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 99px;}
+.ask-online {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 99px;}
+.travel-insurance {color: var(--neutral-black, #000000);text-align: left;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 140%;
+font-weight: 400;opacity: 0.699999988079071;
+    position: relative;
+  width: 135px;}
+.frame-427320815 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute; left: calc(50% - 108px);top: calc(50% - -110px);
+  }
+.linkedin {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.telegram {border-radius: 6px;flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.twitter {border-radius: 6px;flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.facebook {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.instagram {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.special-offers-with-motion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; right: 7.5%; left: 7.5%; width: 85%;top: calc(50% - 1512.5px);
+  }
+.puzzle-picture {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+  align-self: stretch;flex-shrink: 0;
+    position: relative;
+  }
+.photo-1 {border-radius: 8px 0px 0px 0px;flex: 1;height: 278px;
+    position: relative;
+  overflow: hidden;}
+.button2 {background: rgba(12, 12, 12, 0.70);border-radius: 4px;padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  height: 40px;
+    position: absolute; left: 16px;top: 224px;
+  overflow: hidden;backdrop-filter: blur(4px);}
+.frame-26086870 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.deals-discover {color: var(--neutral-white, #ffffff);text-align: center;font-family: 'Poppins-Regular', sans-serif;
+font-size: 16px;
+line-height: 150%;
+font-weight: 400;
+    position: relative;
+  }
+.icons-arrows-arrow-right {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.text-pazeli {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-arrows-arrow-right2 {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.photo-2 {background: linear-gradient(to left, rgba(17, 61, 85, 0.62), rgba(17, 61, 85, 0.62));flex-shrink: 0;width: 290px; height: 278px;
+    position: relative;
+  overflow: hidden;}
+.text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-arrows-arrow-right3 {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.photo-3 {border-radius: 0px 8px 0px 0px;flex: 1;height: 278px;
+    position: relative;
+  overflow: hidden;}
+.icons-arrows-arrow-right4 {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.photo-4 {border-radius: 0px 0px 0px 8px;flex-shrink: 0;width: 609px; height: 278px;
+    position: relative;
+  overflow: hidden;}
+.icons-arrows-arrow-right5 {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.photo-5 {flex: 1;height: 278px;
+    position: relative;
+  overflow: hidden;}
+.icons-arrows-arrow-right6 {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.photo-6 {background: linear-gradient(to left, rgba(255, 214, 0, 0.72), rgba(255, 214, 0, 0.72));border-radius: 0px 0px 8px 0px;flex: 1;height: 278px;
+    position: relative;
+  overflow: hidden;}
+.icons-arrows-arrow-right7 {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.landing-page-banner-with-effect {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  height: 397px;
+    position: absolute; left: calc(50% - 720px);top: 208px;
+  }
+.landing-page-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.picture {flex-shrink: 0;width: 1440px; height: 394px;
+    position: relative;
+  object-fit: cover;}
+.picture2 {background: linear-gradient(-11.05deg, rgba(12, 12, 12, 0.76) 26.751071214675903%,rgba(12, 12, 12, 0.13) 65.69990515708923%);flex-shrink: 0;width: 1440px; height: 394px;
+    position: absolute; left: calc(50% - 720px);top: 0px;
+  overflow: hidden;filter: blur(2px);}
+.cader {flex-shrink: 0;width: 605px; height: 190px;
+    position: absolute; left: 0px;top: 172px;
+  overflow: hidden;}
+.heading {color: var(--neutral-200, #efefef);text-align: left;font-family: var(--typography-desktop-h-1-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-1-font-size, 44px);
+line-height: var(--typography-desktop-h-1-line-height, 140%);
+font-weight: var(--typography-desktop-h-1-font-weight, 700);
+    position: absolute; left: 135px;top: 35px;
+  width: 506px;}
+.hotel-search {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 1190px;
+    position: absolute; left: calc(50% - 595px);top: 565px;
+  }
+._01 {background: var(--neutral-white, #ffffff);border-radius: 4px 0px 0px 4px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 2px;
+padding: 16px 174px 16px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.icons-build-hotel {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.where-are-you-going-to {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xs-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-xs-font-size, 12px);
+line-height: var(--typography-desktop-body-xs-line-height, 150%);
+font-weight: var(--typography-desktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+._02 {background: var(--neutral-white, #ffffff);
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 2px;
+padding: 20px 16px 20px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 313px; height: 56px;
+    position: relative;
+  overflow: hidden;}
+.calendar {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.check-in-date {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xs-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-xs-font-size, 12px);
+line-height: var(--typography-desktop-body-xs-line-height, 150%);
+font-weight: var(--typography-desktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+.check-out-date {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xs-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-xs-font-size, 12px);
+line-height: var(--typography-desktop-body-xs-line-height, 150%);
+font-weight: var(--typography-desktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+._03 {background: var(--neutral-white, #ffffff);
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 2px;
+padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 352px; height: 56px;
+    position: relative;
+  }
+.icons-peoples-people-plus-one {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.frame-427320440 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.frame-427320441 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.adults-2 {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xs-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-xs-font-size, 12px);
+line-height: var(--typography-desktop-body-xs-line-height, 150%);
+font-weight: var(--typography-desktop-body-xs-font-weight, 400);
+    position: relative;
+  width: 48px;}
+.children-3 {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xs-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-xs-font-size, 12px);
+line-height: var(--typography-desktop-body-xs-line-height, 150%);
+font-weight: var(--typography-desktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+.room {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xs-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-xs-font-size, 12px);
+line-height: var(--typography-desktop-body-xs-line-height, 150%);
+font-weight: var(--typography-desktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+.frame-427320442 {padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;height: auto;
+    position: relative;
+  overflow: visible;}
+._04 {background: var(--primary-500, #07689f);border-radius: 0px 4px 4px 0px;
+border-style: solid; 
+border-color: var(--primary-500, #07689f);
+border-width: 2px;
+padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 127px; height: 56px;
+    position: relative;
+  }
+.search {color: var(--neutral-white, #ffffff);text-align: left;font-family: var(--typography-desktop-button-xxl-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-button-xxl-font-size, 16px);
+line-height: var(--typography-desktop-button-xxl-line-height, 140%);
+font-weight: var(--typography-desktop-button-xxl-font-weight, 700);
+    position: relative;
+  }
+.inspiration-part-of-landing-page {background: linear-gradient(to left, #ffffff, #ffffff);width: 1440px; height: 511px;
+    position: absolute; left: calc(50% - 720px);top: 3417px;
+  overflow: hidden;}
+.color-rectangle-2 {background: linear-gradient(-90deg, rgba(0, 0, 0, 1.00) 19.374974071979523%,rgba(0, 0, 0, 0.00) 95.9374725818634%);width: 387px; height: 1447px;
+    position: absolute; left: 0px;top: 124px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, -1);
+}
+.color-rectangle {background: linear-gradient(182.27deg, rgba(0, 0, 0, 0.30) 58.23574662208557%,rgba(0, 0, 0, 0.00) 72.29824662208557%);width: 511px; height: 826px;
+    position: absolute; left: 0px;top: 511px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.text3 {padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; left: 80px;top: 80px;
+  }
+.text4 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.get-inspirations-for-your-next-trip {color: var(--neutral-white, #ffffff);text-align: center;font-family: var(--typography-desktop-h-2-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-2-font-size, 40px);
+line-height: var(--typography-desktop-h-2-line-height, 140%);
+font-weight: var(--typography-desktop-h-2-font-weight, 700);
+    position: relative;
+  width: 705px;}
+.read-about-wonderful-adventure-we-love-most {color: var(--neutral-white, #ffffff);text-align: left;font-family: var(--typography-desktop-h-5-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-5-font-size, 20px);
+line-height: var(--typography-desktop-h-5-line-height, 140%);
+font-weight: var(--typography-desktop-h-5-font-weight, 700);
+    position: relative;
+  width: 763px; height: 21px;}
+.text5 {padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; left: 834px;top: 262px;
+  }
+.big-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-end;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  overflow: hidden;}
+.difficult-roads-lead-to-beautiful-destination {color: var(--neutral-white, #ffffff);text-align: left;font-family: var(--typography-desktop-h-1-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-1-font-size, 44px);
+line-height: var(--typography-desktop-h-1-line-height, 140%);
+font-weight: var(--typography-desktop-h-1-font-weight, 700);
+    position: relative;
+  width: 513px;text-overflow: ellipsis; overflow: hidden;}
+.read-more {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.read-more2 {color: var(--neutral-white, #ffffff);text-align: left;font-family: var(--typography-desktop-body-l-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-body-l-font-size, 18px);
+line-height: var(--typography-desktop-body-l-line-height, 140%);
+font-weight: var(--typography-desktop-body-l-font-weight, 400);
+    position: relative;
+  }
+.arrows-down-one {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+    transform: translate(0px, -24px);
+  overflow: visible;}
+.landing-card-12 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 1224px;
+    position: absolute; left: 108px;top: 1529px;
+  }
+.home-cards {background: var(--neutral-white, #ffffff);border-radius: 8px;
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 1px;
+padding: 8px 8px 24px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex: 1;
+    position: relative;
+  }
+.picture3 {border-radius: 4px 4px 0px 0px;align-self: stretch;flex-shrink: 0;height: 203px;
+    position: relative;
+  }
+.heart3 {background: var(--neutral-black, #000000);border-radius: 50px;opacity: 0.699999988079071;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  width: 25px; height: 25px;
+    position: absolute; left: 8px;top: 8px;
+  }
+.icons-base-like9 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.mode-setting2 {background: linear-gradient(22.59deg, rgba(0, 0, 0, 1.00) 0%,rgba(12, 12, 12, 0.00) 100%);opacity: 0.699999988079071;padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  height: 37px;
+    position: absolute; right: 0px; left: 0px;bottom: 0px;
+  overflow: hidden;backdrop-filter: blur(45px);}
+.group {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.number {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+  flex: 1;
+    position: relative;
+  }
+.number2 {border-radius: 4px;
+border-style: solid; 
+border-color: var(--neutral-white, #ffffff);
+border-width: 1px;
+padding: 11px 9px 11px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: hidden;backdrop-filter: blur(2px);}
+._8-22 {color: var(--neutral-white, #ffffff);text-align: left;font-family: var(--typography-desktop-button-s-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-button-s-font-size, 10px);
+line-height: var(--typography-desktop-button-s-line-height, 140%);
+font-weight: var(--typography-desktop-button-s-font-weight, 700);
+    position: relative;
+  }
+.auto-lauot-02 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  align-self: stretch;flex-shrink: 0;
+    position: relative;
+  }
+.four-seasons {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-h-5-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-5-font-size, 20px);
+line-height: var(--typography-desktop-h-5-line-height, 140%);
+font-weight: var(--typography-desktop-h-5-font-weight, 700);
+    position: relative;
+  align-self: stretch;height: 20px;display: flex;
+align-items: center;justify-content: flex-start}
+.side {color: var(--neutral-400, #a6a6a6);text-align: left;font-family: var(--typography-desktop-subtitle-l-font-family, 'Poppins-SemiBold', sans-serif);
+font-size: var(--typography-desktop-subtitle-l-font-size, 16px);
+line-height: var(--typography-desktop-subtitle-l-line-height, 150%);
+font-weight: var(--typography-desktop-subtitle-l-font-weight, 600);
+    position: relative;
+  width: 250px; height: 21px;}
+.wed-25-jan-fri-27-jan {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-caption-s-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-caption-s-font-size, 12px);
+line-height: var(--typography-desktop-caption-s-line-height, 140%);
+font-weight: var(--typography-desktop-caption-s-font-weight, 500);
+    position: relative;
+  align-self: stretch;height: 13px;}
+.a-tour-of-the-city-and-its-surroundings-led-by-a-professional-guide {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-body-xxs-font-family, 'Poppins-Light', sans-serif);
+font-size: var(--typography-desktop-body-xxs-font-size, 10px);
+line-height: var(--typography-desktop-body-xxs-line-height, 140%);
+font-weight: var(--typography-desktop-body-xxs-font-weight, 300);
+    position: relative;
+  align-self: stretch;display: flex;
+align-items: center;justify-content: flex-starttext-overflow: ellipsis; overflow: hidden;}
+.icons-base-like10 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group2 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like11 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group3 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like12 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group4 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.landing-card-22 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 1224px;
+    position: absolute; left: calc(50% - 612px);top: 1912px;
+  }
+.icons-base-like13 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group5 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like14 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group6 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like15 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group7 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like16 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group8 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.landing-card-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  width: 1224px;
+    position: absolute; left: 108px;top: 2295px;
+  }
+.icons-base-like17 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group9 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like18 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group10 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like19 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group11 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.icons-base-like20 {flex-shrink: 0;width: 20px; height: 20px;
+    position: relative;
+  overflow: visible;}
+.group12 {flex-shrink: 0;width: 67px; height: 16px;
+    position: relative;
+  overflow: visible;}
+.easy-set-24-app-footer {background: var(--neutral-100, #f9f9f9);
+border-style: solid; 
+border-color: var(--neutral-200, #efefef);
+border-width: 0px 0px 2px 0px;
+padding: 24px 0px 24px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 335px;
+    align-items: center;
+    justify-content: center;
+  width: 1440px;
+    position: absolute; left: 0px;top: calc(50% - -1686.5px);
+  }
+.auto-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 704px;
+    position: relative;
+  }
+.travel-description-and-click-on-load-code {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.go-further-with-the-easy-set-24-app {color: var(--primary-500, #07689f);text-align: left;font-family: var(--typography-desktop-h-5-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-5-font-size, 20px);
+line-height: var(--typography-desktop-h-5-line-height, 140%);
+font-weight: var(--typography-desktop-h-5-font-weight, 700);
+    position: relative;
+  }
+.enjoy-savings-on-chosen-hotels-and-flights-when-you-book-through-the-easy-set-24-website-additionally-earn-one-key-cash-for-every-booking-made-through-the-app {color: var(--neutral-black, #000000);text-align: left;font-family: var(--typography-desktop-subtitle-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-subtitle-m-font-size, 14px);
+line-height: var(--typography-desktop-subtitle-m-line-height, 150%);
+font-weight: var(--typography-desktop-subtitle-m-font-weight, 400);
+    position: relative;
+  width: 703px; height: 42px;}
+.text6 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.secured-by-europe-gtp {color: var(--neutral-500, #565656);text-align: left;font-family: var(--typography-desktop-subtitle-m-font-family, 'Poppins-Regular', sans-serif);
+font-size: var(--typography-desktop-subtitle-m-font-size, 14px);
+line-height: var(--typography-desktop-subtitle-m-line-height, 150%);
+font-weight: var(--typography-desktop-subtitle-m-font-weight, 400);
+    position: relative;
+  }
+.auto-layout-scane-barcode {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.auto-layout-barcode-app-store {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 185px;
+    position: relative;
+  }
+.https-lottiefiles-com-animations-apple-download-u-6-s-ucj-un-lb {flex-shrink: 0;width: 120px; height: 40px;
+    position: relative;
+  object-fit: cover;}
+.qr-code {border-radius: 4px;flex-shrink: 0;width: 41px; height: 40px;
+    position: relative;
+    transform: translate(-41px, -40px);
+  overflow: visible;}
+.auto-layout-barcode-google-play {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;
+    position: relative;
+  }
+.https-lottiefiles-com-animations-google-play-badge-g-e-ekc-fr-3-j-6 {flex-shrink: 0;width: 121px; height: 40px;
+    position: relative;
+  object-fit: cover;}
+.qr-code2 {border-radius: 4px;flex-shrink: 0;width: 40px; height: 40px;
+    position: relative;
+    transform: translate(-40px, -40px);
+  overflow: visible;}
+.header-before-sign-in-white {background: var(--neutral-100, #f9f9f9);
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 0px 0px 2px 0px;
+width: 1440px; height: 209px;
+    position: absolute; left: calc(50% - 719px);top: 0px;
+  overflow: hidden;}
+.box-header {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute; left: calc(50% - 612px);top: 24px;
+  }
+.box-logo-search-sing-in-register {flex-shrink: 0;width: 1224px; height: 66px;
+    position: relative;
+  }
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+  width: 104px;
+    position: absolute; left: 0px;top: 0px;
+  }
+.vector521 {flex-shrink: 0;width: 46px; height: 44px;
+    position: relative;
+  overflow: visible;}
+.easy-set-24 {color: var(--primary-500, #07689f);text-align: left;font-family: var(--typography-desktop-h-6-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-h-6-font-size, 16px);
+line-height: var(--typography-desktop-h-6-line-height, 140%);
+font-weight: var(--typography-desktop-h-6-font-weight, 700);
+    position: relative;
+  align-self: stretch;}
+.box-help-flag-search {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute; left: 105px;top: 13px;
+  }
+.help {background: var(--neutral-100, #f9f9f9);border-radius: 2px;padding: 7px 6px 7px 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 36px; height: 36px;
+    position: relative;
+  overflow: hidden;}
+.icons-character-help {flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: visible;}
+.england2 {background: var(--neutral-100, #f9f9f9);border-radius: 4px;padding: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 40px; height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button3 {border-radius: 20px;padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 24px; height: 24px;
+    position: relative;
+  overflow: hidden;object-fit: cover;}
+.search-box {background: rgba(255, 255, 255, 0.50);border-radius: 4px;
+border-style: solid; 
+border-color: var(--neutral-300, #d9d9d9);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  flex-shrink: 0;width: 605px;
+    position: relative;
+  overflow: hidden;}
+.search2 {color: var(--neutral-400, #a6a6a6);text-align: left;font-family: var(--typography-desktop-label-s-font-family, 'Poppins-SemiBold', sans-serif);
+font-size: var(--typography-desktop-label-s-font-size, 12px);
+line-height: var(--typography-desktop-label-s-line-height, 140%);
+font-weight: var(--typography-desktop-label-s-font-weight, 600);
+    position: relative;
+  flex: 1;height: 16px;display: flex;
+align-items: center;justify-content: flex-starttext-overflow: ellipsis; overflow: hidden;}
+.vuesax-outline-search-normal {flex-shrink: 0;width: 16px; height: 16px;
+    position: relative;
+    margin-left: -60px;  }
+.vuesax-outline-search-normal2 {height: auto;
+    position: absolute; left: 0px;top: 0px;
+  overflow: visible;}
+.box-register-sing-in {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute; left: 830px;top: 13px;
+  }
+.button-sign-in {border-radius: 4px;
+border-style: solid; 
+border-color: var(--primary-500, #07689f);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 189px; height: 40px;
+    position: relative;
+  overflow: hidden;}
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.text7 {color: var(--primary-500, #07689f);text-align: center;font-family: var(--typography-desktop-button-xl-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-button-xl-font-size, 16px);
+line-height: var(--typography-desktop-button-xl-line-height, 140%);
+font-weight: var(--typography-desktop-button-xl-font-weight, 500);
+    position: relative;
+  }
+.button-register {border-radius: 4px;
+border-style: solid; 
+border-color: var(--primary-500, #07689f);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;width: 189px; height: 40px;
+    position: relative;
+  overflow: hidden;}
+.chips-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  flex-shrink: 0;width: 810px;
+    position: relative;
+  }
+.chips-trip {background: var(--neutral-white, #ffffff);border-radius: 30px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button-trip {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.text8 {color: var(--neutral-400, #a6a6a6);text-align: center;font-family: var(--typography-desktop-button-xl-font-family, 'Poppins-Medium', sans-serif);
+font-size: var(--typography-desktop-button-xl-font-size, 16px);
+line-height: var(--typography-desktop-button-xl-line-height, 140%);
+font-weight: var(--typography-desktop-button-xl-font-weight, 500);
+    position: relative;
+  }
+.chips-deals {background: var(--neutral-white, #ffffff);border-radius: 30px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button-deals {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.chips-hotel {background: var(--primary-500, #07689f);border-radius: 30px;padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button-hotel {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.text9 {color: var(--neutral-white, #ffffff);text-align: center;font-family: var(--typography-desktop-button-xxl-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--typography-desktop-button-xxl-font-size, 16px);
+line-height: var(--typography-desktop-button-xxl-line-height, 140%);
+font-weight: var(--typography-desktop-button-xxl-font-weight, 700);
+    position: relative;
+  }
+.chips-flight {background: var(--neutral-white, #ffffff);border-radius: 30px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button-flight {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.chips-apartment {background: var(--neutral-white, #ffffff);border-radius: 30px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button-apartment {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }
+.chips-camper {background: var(--neutral-white, #ffffff);border-radius: 30px;
+border-style: solid; 
+border-color: var(--neutral-400, #a6a6a6);
+border-width: 1px;
+padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  flex: 1;height: 40px;
+    position: relative;
+  overflow: hidden;}
+.button-camper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  flex-shrink: 0;
+    position: relative;
+  }

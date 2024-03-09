@@ -1,0 +1,2139 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-400: #2f83b2;
+    --primary-500: #07689f;
+    --primary-600: #043e5f;
+    --neutral-white: #ffffff;
+    --neutral-100: #f9f9f9;
+    --neutral-200: #efefef;
+    --neutral-300: #d9d9d9;
+    --neutral-400: #a6a6a6;
+    --neutral-500: #565656;
+    --neutral-black: #000000;
+    --state-colour-error-light: #e5062e;
+    --state-colour-error-dark: #a80102;
+    --state-colour-alert: #ffcc00;
+    --state-colour-accent: #ff6c01;
+    --state-colour-success: #4c9839;
+    --state-colour-success-light: #e8f5e4;
+  
+    /* Fonts */
+    --typographydesktop-display-1-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-display-1-font-size: 64px;
+    --typographydesktop-display-1-line-height: 140%;
+    --typographydesktop-display-1-font-weight: 700;
+    --typographydesktop-display-1-font-style: normal;
+    --typographydesktop-display-2-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-display-2-font-size: 54px;
+    --typographydesktop-display-2-line-height: 140%;
+    --typographydesktop-display-2-font-weight: 700;
+    --typographydesktop-display-2-font-style: normal;
+    --typographydesktop-h1-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-h1-font-size: 44px;
+    --typographydesktop-h1-line-height: 140%;
+    --typographydesktop-h1-font-weight: 700;
+    --typographydesktop-h1-font-style: normal;
+    --typographydesktop-h2-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-h2-font-size: 40px;
+    --typographydesktop-h2-line-height: 140%;
+    --typographydesktop-h2-font-weight: 700;
+    --typographydesktop-h2-font-style: normal;
+    --typographydesktop-h3-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-h3-font-size: 32px;
+    --typographydesktop-h3-line-height: 140%;
+    --typographydesktop-h3-font-weight: 700;
+    --typographydesktop-h3-font-style: normal;
+    --typographydesktop-h4-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-h4-font-size: 24px;
+    --typographydesktop-h4-line-height: 140%;
+    --typographydesktop-h4-font-weight: 700;
+    --typographydesktop-h4-font-style: normal;
+    --typographydesktop-h5-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-h5-font-size: 20px;
+    --typographydesktop-h5-line-height: 140%;
+    --typographydesktop-h5-font-weight: 700;
+    --typographydesktop-h5-font-style: normal;
+    --typographydesktop-h6-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-h6-font-size: 16px;
+    --typographydesktop-h6-line-height: 140%;
+    --typographydesktop-h6-font-weight: 700;
+    --typographydesktop-h6-font-style: normal;
+    --typographydesktop-subtitle-l-font-family: Poppins-SemiBold, sans-serif;
+    --typographydesktop-subtitle-l-font-size: 16px;
+    --typographydesktop-subtitle-l-line-height: 150%;
+    --typographydesktop-subtitle-l-font-weight: 600;
+    --typographydesktop-subtitle-l-font-style: normal;
+    --typographydesktop-subtitle-m-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-subtitle-m-font-size: 14px;
+    --typographydesktop-subtitle-m-line-height: 150%;
+    --typographydesktop-subtitle-m-font-weight: 400;
+    --typographydesktop-subtitle-m-font-style: normal;
+    --typographydesktop-subtitle-s-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-subtitle-s-font-size: 12px;
+    --typographydesktop-subtitle-s-line-height: 140%;
+    --typographydesktop-subtitle-s-font-weight: 400;
+    --typographydesktop-subtitle-s-font-style: normal;
+    --typographydesktop-subtitle-xs-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-subtitle-xs-font-size: 10px;
+    --typographydesktop-subtitle-xs-line-height: 140%;
+    --typographydesktop-subtitle-xs-font-weight: 400;
+    --typographydesktop-subtitle-xs-font-style: normal;
+    --typographydesktop-body-xl-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-body-xl-font-size: 20px;
+    --typographydesktop-body-xl-line-height: 140%;
+    --typographydesktop-body-xl-font-weight: 400;
+    --typographydesktop-body-xl-font-style: normal;
+    --typographydesktop-body-l-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-body-l-font-size: 18px;
+    --typographydesktop-body-l-line-height: 140%;
+    --typographydesktop-body-l-font-weight: 400;
+    --typographydesktop-body-l-font-style: normal;
+    --typographydesktop-body-m-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-body-m-font-size: 16px;
+    --typographydesktop-body-m-line-height: 150%;
+    --typographydesktop-body-m-font-weight: 400;
+    --typographydesktop-body-m-font-style: normal;
+    --typographydesktop-body-s-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-body-s-font-size: 14px;
+    --typographydesktop-body-s-line-height: 150%;
+    --typographydesktop-body-s-font-weight: 400;
+    --typographydesktop-body-s-font-style: normal;
+    --typographydesktop-body-xs-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-body-xs-font-size: 12px;
+    --typographydesktop-body-xs-line-height: 150%;
+    --typographydesktop-body-xs-font-weight: 400;
+    --typographydesktop-body-xs-font-style: normal;
+    --typographydesktop-body-xxs-font-family: Poppins-Light, sans-serif;
+    --typographydesktop-body-xxs-font-size: 10px;
+    --typographydesktop-body-xxs-line-height: 140%;
+    --typographydesktop-body-xxs-font-weight: 300;
+    --typographydesktop-body-xxs-font-style: normal;
+    --typographydesktop-caption-l-font-family: Poppins-ExtraBold, sans-serif;
+    --typographydesktop-caption-l-font-size: 14px;
+    --typographydesktop-caption-l-line-height: 140%;
+    --typographydesktop-caption-l-font-weight: 800;
+    --typographydesktop-caption-l-font-style: normal;
+    --typographydesktop-caption-m-font-family: Poppins-Regular, sans-serif;
+    --typographydesktop-caption-m-font-size: 14px;
+    --typographydesktop-caption-m-line-height: 140%;
+    --typographydesktop-caption-m-font-weight: 400;
+    --typographydesktop-caption-m-font-style: normal;
+    --typographydesktop-caption-s-font-family: Poppins-Medium, sans-serif;
+    --typographydesktop-caption-s-font-size: 12px;
+    --typographydesktop-caption-s-line-height: 140%;
+    --typographydesktop-caption-s-font-weight: 500;
+    --typographydesktop-caption-s-font-style: normal;
+    --typographydesktop-lable-xs-font-family: Poppins-SemiBold, sans-serif;
+    --typographydesktop-lable-xs-font-size: 10px;
+    --typographydesktop-lable-xs-line-height: 140%;
+    --typographydesktop-lable-xs-font-weight: 600;
+    --typographydesktop-lable-xs-font-style: normal;
+    --typographydesktop-label-s-font-family: Poppins-SemiBold, sans-serif;
+    --typographydesktop-label-s-font-size: 12px;
+    --typographydesktop-label-s-line-height: 140%;
+    --typographydesktop-label-s-font-weight: 600;
+    --typographydesktop-label-s-font-style: normal;
+    --typographydesktop-lable-m-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-lable-m-font-size: 14px;
+    --typographydesktop-lable-m-line-height: 140%;
+    --typographydesktop-lable-m-font-weight: 700;
+    --typographydesktop-lable-m-font-style: normal;
+    --typographydesktop-button-xxl-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-button-xxl-font-size: 16px;
+    --typographydesktop-button-xxl-line-height: 140%;
+    --typographydesktop-button-xxl-font-weight: 700;
+    --typographydesktop-button-xxl-font-style: normal;
+    --typographydesktop-button-xl-font-family: Poppins-Medium, sans-serif;
+    --typographydesktop-button-xl-font-size: 16px;
+    --typographydesktop-button-xl-line-height: 140%;
+    --typographydesktop-button-xl-font-weight: 500;
+    --typographydesktop-button-xl-font-style: normal;
+    --typographydesktop-button-l-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-button-l-font-size: 14px;
+    --typographydesktop-button-l-line-height: 140%;
+    --typographydesktop-button-l-font-weight: 700;
+    --typographydesktop-button-l-font-style: normal;
+    --typographydesktop-button-m-font-family: Poppins-Medium, sans-serif;
+    --typographydesktop-button-m-font-size: 14px;
+    --typographydesktop-button-m-line-height: 140%;
+    --typographydesktop-button-m-font-weight: 500;
+    --typographydesktop-button-m-font-style: normal;
+    --typographydesktop-button-s-font-family: Poppins-Bold, sans-serif;
+    --typographydesktop-button-s-font-size: 10px;
+    --typographydesktop-button-s-line-height: 140%;
+    --typographydesktop-button-s-font-weight: 700;
+    --typographydesktop-button-s-font-style: normal;
+    --typographydesktop-button-xs-font-family: Poppins-Medium, sans-serif;
+    --typographydesktop-button-xs-font-size: 10px;
+    --typographydesktop-button-xs-line-height: 140%;
+    --typographydesktop-button-xs-font-weight: 500;
+    --typographydesktop-button-xs-font-style: normal;
+  
+    /* Effects */
+  }
+  a{
+    text-decoration: none;
+  }
+  .basic-information,
+  .basic-information * {
+    box-sizing: border-box;
+  }
+  .basic-information {
+    background: var(--neutral-100, #f9f9f9);
+    height: 1674px;
+    position: relative;
+    overflow: hidden;
+  }
+  .footer-final {
+    border-radius: 8px 8px 0px 0px;
+    width: 1440px;
+    height: 452px;
+    position: absolute;
+    left: calc(50% - 720px);
+    top: 1222px;
+  }
+  .frame-footer {
+    background: var(--neutral-300, #d9d9d9);
+    width: 1441px;
+    height: 64px;
+    position: absolute;
+    left: -1px;
+    top: 394px;
+    overflow: hidden;
+  }
+  .under-the-footer-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1224px;
+    position: absolute;
+    left: 108px;
+    top: 19px;
+  }
+  .text-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icon {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icons-character-copyright {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .copyright-easy-set-24 {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-caption-s-font-family,
+      "Poppins-Medium",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-caption-s-font-size, 12px);
+    line-height: var(--typographydesktop-caption-s-line-height, 140%);
+    font-weight: var(--typographydesktop-caption-s-font-weight, 500);
+    position: relative;
+  }
+  .text-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icons-office-email-down {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .easyset-24-gmail-com {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-caption-s-font-family,
+      "Poppins-Medium",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-caption-s-font-size, 12px);
+    line-height: var(--typographydesktop-caption-s-line-height, 140%);
+    font-weight: var(--typographydesktop-caption-s-font-weight, 500);
+    position: relative;
+  }
+  .easy-set-24-seamless-journeys-unrivalled-travel-wisdom {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+  }
+  .text-3 {
+    flex-shrink: 0;
+    width: 175px;
+    height: 20px;
+    position: relative;
+  }
+  .icons-travels-local-two {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  ._123-oxford-street-london {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-caption-s-font-family,
+      "Poppins-Medium",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-caption-s-font-size, 12px);
+    line-height: var(--typographydesktop-caption-s-line-height, 140%);
+    font-weight: var(--typographydesktop-caption-s-font-weight, 500);
+    position: absolute;
+    left: 27.5px;
+    top: 0px;
+    width: 148px;
+    height: 20px;
+  }
+  .text-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icons-communicate-phone-call {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .phone {
+    flex-shrink: 0;
+    width: 103px;
+    height: 17px;
+    position: static;
+  }
+  ._44-20-7123-4567 {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-caption-s-font-family,
+      "Poppins-Medium",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-caption-s-font-size, 12px);
+    line-height: var(--typographydesktop-caption-s-line-height, 140%);
+    font-weight: var(--typographydesktop-caption-s-font-weight, 500);
+    position: absolute;
+    left: 28px;
+    top: 3px;
+  }
+  .footer {
+    background: #f8f8f8;
+    width: 1440px;
+    height: 388px;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    overflow: hidden;
+  }
+  .base {
+    position: absolute;
+    right: 76.39%;
+    left: 19.58%;
+    width: 4.03%;
+    bottom: 14.43%;
+    top: 75.26%;
+    height: 10.31%;
+  }
+  .send-an-email {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    left: 927px;
+    top: 263px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 312px;
+    position: relative;
+  }
+  .e-mail-text {
+    padding: 4px 8px 4px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .title {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-body-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-body-s-font-size, 14px);
+    line-height: var(--typographydesktop-body-s-line-height, 150%);
+    font-weight: var(--typographydesktop-body-s-font-weight, 400);
+    position: relative;
+  }
+  .auto-layout-input {
+    background: var(--neutral-white, #ffffff);
+    border-radius: 4px 0px 0px 4px;
+    border-style: solid;
+    border-color: var(--neutral-400, #a6a6a6);
+    border-width: 0.5px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icons-office-mail {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .enter-yout-email {
+    color: var(--neutral-400, #a6a6a6);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-body-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-body-s-font-size, 14px);
+    line-height: var(--typographydesktop-body-s-line-height, 150%);
+    font-weight: var(--typographydesktop-body-s-font-weight, 400);
+    position: relative;
+  }
+  .confirm-button {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 94px;
+    position: relative;
+  }
+  .button {
+    background: var(--primary-500, #07689f);
+    border-radius: 0px 4px 4px 0px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 94px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .text2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .text3 {
+    color: var(--neutral-white, #ffffff);
+    text-align: right;
+    font-family: var(
+      --typographydesktop-button-m-font-family,
+      "Poppins-Medium",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-button-m-font-size, 14px);
+    line-height: var(--typographydesktop-button-m-line-height, 140%);
+    font-weight: var(--typographydesktop-button-m-font-weight, 500);
+    position: relative;
+  }
+  .payment-methods {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 405px;
+    position: absolute;
+    left: calc(50% - 611px);
+    top: calc(50% - -98px);
+  }
+  .visa-card {
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 48px;
+    position: relative;
+    overflow: visible;
+  }
+  .amex {
+    border-radius: 4px;
+    flex: 1;
+    height: 48px;
+    position: relative;
+    overflow: visible;
+  }
+  .master-card {
+    background: var(--neutral-100, #f9f9f9);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: var(--neutral-300, #d9d9d9);
+    border-width: 1px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 48px;
+    position: relative;
+  }
+  .international-bank-masterrcard {
+    flex-shrink: 0;
+    width: 47px;
+    height: 31px;
+    position: relative;
+    overflow: visible;
+  }
+  .paypal {
+    background: var(--neutral-100, #f9f9f9);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: var(--neutral-300, #d9d9d9);
+    border-width: 1px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 48px;
+    position: relative;
+  }
+  .international {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 14px;
+    position: relative;
+    overflow: visible;
+  }
+  .auto-layout-the-whole-episode {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1223px;
+    position: absolute;
+    left: 109px;
+    top: 48px;
+  }
+  .auto-layout-about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 144px;
+    height: 174px;
+    position: relative;
+  }
+  .customer-service {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+    width: 108px;
+  }
+  .our-story {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 108px;
+  }
+  .work-with-us {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 108px;
+    height: 18px;
+  }
+  .press-media {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 126px;
+    height: 18px;
+  }
+  .privacy-security {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 144px;
+    height: 18px;
+  }
+  .auto-layout-we-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 159px;
+    position: relative;
+  }
+  .we-offer {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+  }
+  .trip-sponsorship {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 148px;
+  }
+  .last-minutes-flights {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 159px;
+  }
+  .best-deals {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 148px;
+  }
+  .ai-driven-search {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 148px;
+  }
+  .auto-layout-headquarters {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 123px;
+    position: relative;
+  }
+  .headquarters {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+  }
+  .england {
+    background: var(--neutral-100, #f9f9f9);
+  border-radius: 4px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  }
+  .france {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 66px;
+  }
+  .canada {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 66px;
+  }
+  .iceland {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 66px;
+  }
+  .auto-layout-travel-blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 161px;
+    height: 174px;
+    position: relative;
+  }
+  .travel-blogs {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+  }
+  .bali-travel-guide {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .sri-travel-guide {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .peru-travel-guide {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .swiss-travel-guide {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 161px;
+  }
+  .auto-layout-activities {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 174px;
+    position: relative;
+  }
+  .activities {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+  }
+  .tour-leading {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .cruising-sailing {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .camping {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .kayaking {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 140px;
+  }
+  .auto-layou-service {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 135px;
+    height: 132px;
+    position: relative;
+  }
+  .service {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+    width: 92px;
+  }
+  .report-error {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 99px;
+  }
+  .ask-online {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 99px;
+  }
+  .travel-insurance {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    position: relative;
+    width: 135px;
+  }
+  .social-networks {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 108px);
+    top: calc(50% - -110px);
+  }
+  .linkedin {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .telegram {
+    border-radius: 6px;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .twitter {
+    border-radius: 6px;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .facebook {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .instagram {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+  }
+  .profile-header-white {
+    background: var(--neutral-100, #f9f9f9);
+    border-style: solid;
+    border-color: var(--neutral-300, #d9d9d9);
+    border-width: 0px 0px 1px 0px;
+    width: 1440px;
+    height: 130px;
+    position: absolute;
+    left: calc(50% - 720px);
+    top: 0px;
+    overflow: hidden;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1224px;
+    position: absolute;
+    left: 106px;
+    top: calc(50% - 33px);
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 93px;
+    position: relative;
+  }
+  .vector24 {
+    flex-shrink: 0;
+    width: 46px;
+    height: 44px;
+    position: relative;
+    overflow: visible;
+  }
+  .easy-set-24 {
+    color: var(--primary-500, #07689f);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h6-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h6-font-size, 16px);
+    line-height: var(--typographydesktop-h6-line-height, 140%);
+    font-weight: var(--typographydesktop-h6-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+    height: 22px;
+  }
+  .header2 {
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    position: relative;
+  }
+  .england2 {
+    background: var(--neutral-100, #f9f9f9);
+    border-radius: 4px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .button2 {
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .icon-buttons {
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .button3 {
+    background: var(--neutral-100, #f9f9f9);
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .icons-character-help {
+  background: var(--neutral-100, #f9f9f9);
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  }
+  .text4 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .text5 {
+    background: var(--neutral-100, #f9f9f9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .your-account {
+    color: var(--primary-600, #043e5f);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-caption-l-font-family,
+      "Poppins-ExtraBold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-caption-l-font-size, 14px);
+    line-height: var(--typographydesktop-caption-l-line-height, 140%);
+    font-weight: var(--typographydesktop-caption-l-font-weight, 800);
+    position: relative;
+    width: 99px;
+  }
+  .text-anna {
+    margin: -4px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .anna-carinna {
+    color: var(--primary-500, #07689f);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+  }
+  .middle-box-with-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 108px;
+    top: 178px;
+  }
+  .customer-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 288px;
+    position: relative;
+  }
+  .customer-profile-heading {
+    background: var(--neutral-white, #ffffff);
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 288px;
+    height: 72px;
+    position: relative;
+  }
+  .box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+  }
+  .hi-anna {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-lable-m-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-lable-m-font-size, 14px);
+    line-height: var(--typographydesktop-lable-m-line-height, 140%);
+    font-weight: var(--typographydesktop-lable-m-font-weight, 700);
+    position: relative;
+  }
+  .annacarinna-gmail-com {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-body-xs-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-body-xs-font-size, 12px);
+    line-height: var(--typographydesktop-body-xs-line-height, 150%);
+    font-weight: var(--typographydesktop-body-xs-font-weight, 400);
+    position: relative;
+  }
+  .box-button-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .manage-your-profile-rewards-and-preferences-for-all-our-brands-in-one-place {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+    width: 286px;
+  }
+  .menu-button-customer-profile {
+    background: var(--neutral-white, #ffffff);
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 288px;
+    height: 48px;
+    position: relative;
+  }
+  .button-selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 264px;
+    position: relative;
+  }
+  .text-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 233px;
+    position: relative;
+  }
+  .user {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .text6 {
+    color: var(--primary-500, #07689f);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-body-m-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-body-m-font-size, 16px);
+    line-height: var(--typographydesktop-body-m-line-height, 150%);
+    font-weight: var(--typographydesktop-body-m-font-weight, 400);
+    position: relative;
+  }
+  .icons-arrows-right {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .menu-button-customer-profile2 {
+    background: var(--neutral-white, #ffffff);
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 288px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .button-normal {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 262px;
+    position: relative;
+  }
+  .text-icon2 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+  .office-list-view {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .text7 {
+    color: var(--neutral-black, #000000);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-body-m-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-body-m-font-size, 16px);
+    line-height: var(--typographydesktop-body-m-line-height, 150%);
+    font-weight: var(--typographydesktop-body-m-font-weight, 400);
+    position: relative;
+    flex: 1;
+  }
+  .icons-arrows-right2 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .money-wallet {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .icons-arrows-right3 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .character-help {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .icons-arrows-right4 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .base-setting-two {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .icons-arrows-right5 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .menu-button-customer-profile3 {
+    background: var(--neutral-white, #ffffff);
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 286px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .text8 {
+    color: var(--primary-500, #07689f);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-lable-m-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-lable-m-font-size, 14px);
+    line-height: var(--typographydesktop-lable-m-line-height, 140%);
+    font-weight: var(--typographydesktop-lable-m-font-weight, 700);
+    position: relative;
+    flex: 1;
+  }
+  .basic-information-box {
+    background: var(--neutral-white, #ffffff);
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 912px;
+    position: relative;
+  }
+  .basic-information-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .basic-information2 {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-h4-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-h4-font-size, 24px);
+    line-height: var(--typographydesktop-h4-line-height, 140%);
+    font-weight: var(--typographydesktop-h4-font-weight, 700);
+    position: relative;
+    width: 561px;
+  }
+  .make-sure-this-information-matches-your-travel-id-like-your-passport-or-license {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-m-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-m-font-size, 14px);
+    line-height: var(--typographydesktop-subtitle-m-line-height, 150%);
+    font-weight: var(--typographydesktop-subtitle-m-font-weight, 400);
+    position: relative;
+    width: 561px;
+  }
+  .ful-name-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 383px;
+    position: relative;
+  }
+  .full-name {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-lable-m-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-lable-m-font-size, 14px);
+    line-height: var(--typographydesktop-lable-m-line-height, 140%);
+    font-weight: var(--typographydesktop-lable-m-font-weight, 700);
+    position: relative;
+    width: 383px;
+  }
+  .inbox-full-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .input-40 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 383px;
+    position: relative;
+  }
+  .input-1 {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: var(--neutral-400, #a6a6a6);
+    border-width: 1px;
+    padding: 2px 8px 2px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+  }
+  .input-12 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+  .text9 {
+    padding: 2px 0px 2px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+  }
+  .enter-your-email-gmail-com {
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .enter-your-email-gmail-com-span {
+    color: var(--neutral-500, #565656);
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+  }
+  .enter-your-email-gmail-com-span2 {
+    color: var(--state-colour-error-light, #e5062e);
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+  }
+  .enter-your-email-gmail-com2 {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+    flex: 1;
+  }
+  
+  .input-13 {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: var(--neutral-400, #a6a6a6);
+    border-width: 1px;
+    padding: 2px 8px 2px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+    background-color: var(--neutral-white);
+  }
+  .enter-your-email-gmail-com3 {
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+    flex: 1;
+  }
+  .enter-your-email-gmail-com-3-span {
+    color: var(--neutral-500, #565656);
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+  }
+  .enter-your-email-gmail-com-3-span2 {
+    color: var(--state-colour-error-light, #e5062e);
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+  }
+  .about-you-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .about-you {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-lable-m-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-lable-m-font-size, 14px);
+    line-height: var(--typographydesktop-lable-m-line-height, 140%);
+    font-weight: var(--typographydesktop-lable-m-font-weight, 700);
+    position: relative;
+  }
+  .input-56 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 383px;
+    position: relative;
+  }
+  .text10 {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: var(--neutral-400, #a6a6a6);
+    border-width: 1px;
+    padding: 2px 8px 2px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+  }
+  .text-icon3 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+  }
+  .text-icon4 {
+    padding: 2px 0px 2px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+  }
+  .date-of-birth-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .date-of-birth {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-lable-m-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-lable-m-font-size, 14px);
+    line-height: var(--typographydesktop-lable-m-line-height, 140%);
+    font-weight: var(--typographydesktop-lable-m-font-weight, 700);
+    position: relative;
+  }
+  .inbox-date-of-birth {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .input-402 {
+    display: flex;
+  /* flex-direction: column; */
+  gap: 18px;
+  align-items: flex-start;
+  /* justify-content: center; */
+  flex-shrink: 0;
+  width: 117px;
+  position: relative;
+  }
+  .input-57 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 117px;
+    position: relative;
+  }
+  .input-58 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 117px;
+    position: relative;
+  }
+  .gender-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .gender {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-button-l-font-family,
+      "Poppins-Bold",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-button-l-font-size, 14px);
+    line-height: var(--typographydesktop-button-l-line-height, 140%);
+    font-weight: var(--typographydesktop-button-l-font-weight, 700);
+    position: relative;
+  }
+  .inbox-gender {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 105px;
+    position: relative;
+  }
+  .box-female {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 102px;
+    position: relative;
+  }
+  .female {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+  }
+  .radio-button {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+  .radio-button-normal {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: var(--neutral-400, #a6a6a6);
+    border-width: 1px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .radio-button-normal2 {
+    border-radius: 100px;
+    position: absolute;
+    right: 16.67%;
+    left: 16.67%;
+    width: 66.67%;
+    bottom: 16.67%;
+    top: 16.67%;
+    height: 66.67%;
+    overflow: hidden;
+  }
+  .box-male {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 102px;
+    position: relative;
+  }
+  .male {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+  }
+  .accessibility-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 503px;
+    position: relative;
+  }
+  .box-accessibility {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .accessibility-needs {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-caption-m-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-caption-m-font-size, 14px);
+    line-height: var(--typographydesktop-caption-m-line-height, 140%);
+    font-weight: var(--typographydesktop-caption-m-font-weight, 400);
+    position: relative;
+  }
+  .help-us-build-features-that-make-travel-accessible-for-all-by-sharing-this-information {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+    position: relative;
+  }
+  .input-48 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 384px;
+    position: relative;
+  }
+  .input-14 {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: var(--neutral-400, #a6a6a6);
+    border-width: 1px;
+    padding: 2px 8px 2px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+  }
+  .text11 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+  }
+  .enter-your-email-gmail-com4 {
+    color: var(--neutral-500, #565656);
+    text-align: left;
+    position: relative;
+    flex: 1;
+  }
+  .enter-your-email-gmail-com-4-span {
+    color: var(--neutral-500, #565656);
+    font-family: var(
+      --typographydesktop-subtitle-s-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-s-font-size, 12px);
+    line-height: var(--typographydesktop-subtitle-s-line-height, 140%);
+    font-weight: var(--typographydesktop-subtitle-s-font-weight, 400);
+  }
+  .enter-your-email-gmail-com-4-span2 {
+    color: var(--neutral-500, #565656);
+    font-family: var(
+      --typographydesktop-subtitle-m-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-subtitle-m-font-size, 14px);
+    line-height: var(--typographydesktop-subtitle-m-line-height, 150%);
+    font-weight: var(--typographydesktop-subtitle-m-font-weight, 400);
+  }
+  .icons-arrows-down {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    overflow: visible;
+  }
+  .button4 {
+    background: var(--primary-500, #07689f);
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 384px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .text12 {
+    /* color: var(--neutral-white, #ffffff); */
+    text-align: center;
+    font-family: var(
+      --typographydesktop-button-xl-font-family,
+      "Poppins-Medium",
+      sans-serif
+    );
+    font-size: var(--typographydesktop-button-xl-font-size, 16px);
+    line-height: var(--typographydesktop-button-xl-line-height, 140%);
+    font-weight: var(--typographydesktop-button-xl-font-weight, 500);
+    position: relative;
+    background-color: #07689f;
+    border: none;
+    cursor:pointer;
+  }
+    
